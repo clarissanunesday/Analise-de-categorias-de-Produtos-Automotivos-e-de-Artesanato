@@ -1,0 +1,51 @@
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ambientes virtuais
+venv/
+env/
+
+# Arquivos Python compilados
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Logs e bancos de dados locais
+*.log
+*.sqlite3
+
+# Arquivos temporários de notebooks
+.ipynb_checkpoints/
+
+# Arquivos temporários de edição e IDEs
+.vscode/
+.idea/
+*.swp
+
+# Arquivos de configuração de pacotes e dependências
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos de bibliotecas e pacotes
+site/
+*.egg-info/
+dist/
+build/
+.eggs/
+wheelhouse/
+
+# Arquivos de dados e resultados temporários
+*.csv
+*.tsv
+*.json
+
+# Ignorar arquivos de cache do matplotlib
+.matplotlib_cache/
+
+# Arquivos de configuração do Jupyter
+.jupyter/
+
+# Arquivos ocultos do Git
+*.orig
