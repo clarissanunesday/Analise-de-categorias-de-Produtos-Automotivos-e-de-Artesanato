@@ -1,0 +1,23 @@
+
+---
+
+## **.gitignore**
+
+```gitignore
+# Ignore arquivos do sistema operacional
+.DS_Store
+
+# Ignore ambientes virtuais
+venv/
+env/
+
+# Ignore arquivos temporários
+*.pyc
+__pycache__/
+
+# Ignore arquivos de configuração do Jupyter
+.ipynb_checkpoints/
+
+# Ignore dependências locais
+*.log
+*.csv
